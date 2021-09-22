@@ -1,0 +1,28 @@
+{
+  "name": "calendario-dos-manos-api",
+  "version": "1.0.0",
+  "description": "api dos arrombado q nn se decide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulojoab/calendario-dos-manos-api.git"
+  },
+  "author": "Saulo Joab Penha Simplicio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulojoab/calendario-dos-manos-api/issues"
+  },
+  "homepage": "https://github.com/saulojoab/calendario-dos-manos-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "mongoose": "^6.0.7",
+    "morgan": "^1.10.0"
+  }
+}
