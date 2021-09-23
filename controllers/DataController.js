@@ -5,7 +5,7 @@ module.exports = {
   async index(req, res) {
     const datas = await Data.find();
 
-    return res.status(HttpStatus.OK).json(datas);
+    return res.status(StatusCodes.OK).json(datas);
   },
 
   async store(req, res) {
